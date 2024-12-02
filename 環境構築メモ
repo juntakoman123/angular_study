@@ -1,0 +1,28 @@
+https://zenn.dev/ttskch/books/84c7a272deb3845e8085/viewer/1
+
+https://angular.jp/reference/versions
+バージョン互換性を確認して、node.jsやTypeScriptのバージョンを決めること
+
+インストール可能なTypeScriptバージョン確認
+npm show typescript versions
+
+バージョン確認
+node -v
+npm -v
+tsc -v
+ng version
+
+https://qiita.com/tomy0610/items/74e36697533f892e3b47
+
+ng new todo --skip-install
+cd todo
+
+https://qiita.com/PRONakahira/items/f507d0f912974d1b8c58
+
+https://betashort-lab.com/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%96%8B%E7%99%BA/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF/angular/%E3%80%90angular%E3%80%91docker%E3%81%A7%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/
+
+コンテナ内で以下を実行
+ng serve --host 0.0.0.0
+
+ホストマシン側からアクセス
+http://localhost:4200/
